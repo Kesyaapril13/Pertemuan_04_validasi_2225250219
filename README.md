@@ -10,7 +10,7 @@ validasi tipe dan rentang input, serta klasifikasi
 nilai berdasarkan beberapa kondisi.
 
 ## Cara Menjalankan
-Jalankan file Python melalui VS Code atau terminal.
+Jalankan file Python melalui VSgi Code atau terminal.
 
 Contoh:
 python praktik/validasi_klasifikasi_nilai.py
@@ -30,7 +30,17 @@ python praktik/validasi_klasifikasi_nilai.py
 
 ## Hasil Pengujian
 
-Masukkan tabel hasil pengujian sesuai test case pada PDF.
+|No | Nilai Ujian  | Nilai Tugas | Kehadiran | Hasil |
+|---|---:|---:|---:|---          |
+| 1 | 90 | 80 | 95 | Nilai akhir 86.00, A, Lulus |
+| 2 | 75 | 70 | 85 | Nilai akhir 73.00, B, Lulus |
+| 3 | 60 | 60 | 80 | Nilai akhir 60.00, C, Lulus |
+| 4 | 55 | 50 | 90 | Nilai akhir 53.00, D, Belum lulus |
+| 5 | 40 | 30 | 100| Nilai akhir 36.00, E, Belum lulus |
+| 6 | 90 | 90 | 75 | Tidak memenuhi syarat kehadiran |
+| 7 | 105| 80 | 90 | Ditolak: nilai ujian di luar rentang |
+| 8 | 80 | -5 | 90 | Ditolak: nilai tugas di luar rentang |
+| 9 | 80 | 80 | abc| Ditolak: input harus berupa angka |
 
 ## Refleksi
 
